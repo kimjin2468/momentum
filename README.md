@@ -3,6 +3,7 @@
 작업기간 2021.08.08~2021.08.09  
 사용된 언어:HTML, Javascript, CSS
 
+[데모] (https://kimjin2468.github.io/momentum/)
 
 # Components
 
@@ -34,6 +35,8 @@
 
 ## 개선할 사항
  - 단조로운 화면구성에 transition효과로 동적인 효과 추가하기
+
+
  
 
 
