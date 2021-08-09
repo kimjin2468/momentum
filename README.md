@@ -3,7 +3,7 @@
 작업기간 2021.08.08~2021.08.09  
 사용된 언어:HTML, Javascript, CSS
 
-[데모] (https://kimjin2468.github.io/momentum/)
+[데모](https://kimjin2468.github.io/momentum/)
 
 # Components
 
