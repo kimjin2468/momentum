@@ -2,6 +2,7 @@ const loginForm = document.querySelector('#login-form')
 const loginInput = document.querySelector('#login-form input')
 const h1El = document.querySelector('#greeting')
 const userNameFromLocal = localStorage.getItem("username");
+const userNameClear = document.querySelector("#center .greeting")
 
 const HIDDEN_CLASSNAME = "hidden"
 const USERNAME_KEY = 'username'
@@ -27,6 +28,11 @@ if(userNameFromLocal === null){
 else{
   paintGreetings()
 }
+
+userNameClear.addEventListener("click", function(){
+  localStorage.removeItem("username")
+  window.location.reload()
+})
 
 
 
